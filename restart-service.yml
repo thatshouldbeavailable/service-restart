@@ -1,4 +1,14 @@
-- name: restart service
-  ansible.builtin.service:
-    name: 
-    state: restarted
+  - name: "Playing with Ansible"
+    hosts: localhost
+    connection: local 
+    tasks:
+
+    - name: "Restart a service"
+      shell: "systemctl restart apache2.service"
+      register: "output"
+
+    - name: "Check service status"
+      shell: "systemctl status apache2.service"
+      register: "output"
+
+    - debug: var=output.stdout_lines
