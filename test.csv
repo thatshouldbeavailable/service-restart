@@ -1,5 +1,5 @@
-admins:
-user: "ivan.invaov", sudo:true
-user: "petar.invaov", sudo:true
-user: "niki.invaov", sudo:true
-user: "john.invaov", sudo:true
+admins, user, sudo
+user, "ivan.invaov", true
+user, "petar.invaov", true
+user, "niki.invaov", true
+user, "john.invaov", false
