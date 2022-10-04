@@ -1,2 +1,5 @@
-users,ivan,dragan,petkan
-godini,20,30,40
+admins:
+  -{user: "ivan.invaov", sudo:true}
+  -{user: "petar.invaov", sudo:true}
+  -{user: "niki.invaov", sudo:true}
+  -{user: "john.invaov", sudo:true}
