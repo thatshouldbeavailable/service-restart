@@ -1,5 +1,5 @@
-admins, user, sudo
-user, ivan.invaov, true
-user, petar.invaov, true
-user, niki.invaov, true
-user, john.invaov, false
+admins,user,sudo
+user,ivan.invaov,true
+user,petar.invaov,true
+user,niki.invaov,true
+user,john.invaov,false
