@@ -2,3 +2,4 @@ services:
     - backup
     - new
     - test_service
+    - waaa.service
